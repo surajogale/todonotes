@@ -110,7 +110,6 @@ class Board extends Component{
     render(){
         return(
             <div className={"board "+ (this.state.editflag ? "edit": "")}>
-            <Link to="/contact">Click Here</Link> to contact us!
              <Notifications options={{zIndex: 1, top: '40px'}} />
                 <div className={"header"}>
                     <span className="header_name">{"Todo Notes"}</span> 
